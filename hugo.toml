@@ -1,0 +1,55 @@
+baseURL = "https://dirtywastegash.github.io/blog/"
+locale = "en-GB"
+title = "dirtywastegash"
+theme = "PaperMod"
+enableRobotsTXT = true
+
+[params]
+  env = "production"
+  description = "Projects, notes, and write-ups."
+  author = "Matt"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowCodeCopyButtons = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowToc = true
+  TocOpen = false
+  ShowSearch = true
+
+[params.homeInfoParams]
+  Title = "Matt"
+  Content = "Projects, notes, and write-ups."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/dirtywastegash"
+
+[[params.socialIcons]]
+  name = "rss"
+  url = "index.xml"
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "projects"
+  name = "Projects"
+  url = "/projects/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 30
+
+[pagination]
+  pagerSize = 10
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
