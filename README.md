@@ -3,7 +3,8 @@
 Hugo site for Matt's blog, using the PaperMod theme.
 
 - Source of truth: Forgejo `squatnet/blog`
-- Mirror: GitHub `dirtywastegash/blog`
+- Mirror: GitHub `Squatnet/blog`
+- Public URL: https://squatnet.github.io/blog/
 - Publishing: GitHub Pages via `.github/workflows/pages.yml`
 
 ## Writing

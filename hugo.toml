@@ -1,4 +1,4 @@
-baseURL = "https://dirtywastegash.github.io/blog/"
+baseURL = "https://squatnet.github.io/blog/"
 locale = "en-GB"
 title = "Built with Squat"
 theme = "PaperMod"
@@ -24,7 +24,7 @@ enableRobotsTXT = true
 
 [[params.socialIcons]]
   name = "github"
-  url = "https://github.com/dirtywastegash"
+  url = "https://github.com/Squatnet"
 
 [[params.socialIcons]]
   name = "rss"
