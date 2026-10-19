@@ -1,6 +1,6 @@
 baseURL = "https://dirtywastegash.github.io/blog/"
 locale = "en-GB"
-title = "dirtywastegash"
+title = "Built with Squat"
 theme = "PaperMod"
 enableRobotsTXT = true
 
@@ -19,7 +19,7 @@ enableRobotsTXT = true
   ShowSearch = true
 
 [params.homeInfoParams]
-  Title = "Matt"
+  Title = "Built with Squat"
   Content = "Projects, notes, and write-ups."
 
 [[params.socialIcons]]
